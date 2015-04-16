@@ -1,0 +1,697 @@
+[Thu Apr 16 19:33:05 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 19:33:05 2015] [debug] GET "/"
+[Thu Apr 16 19:33:05 2015] [debug] Routing to controller "LabBooker::Controller::Example" and action "welcome"
+[Thu Apr 16 19:33:05 2015] [debug] Rendering template "example/welcome.html.ep"
+[Thu Apr 16 19:33:05 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu Apr 16 19:33:05 2015] [debug] 200 OK (0.005072s, 197.161/s)
+[Thu Apr 16 19:53:03 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 19:53:03 2015] [debug] GET "/"
+[Thu Apr 16 19:53:03 2015] [debug] Routing to controller "LabBooker::Controller::Example" and action "welcome"
+[Thu Apr 16 19:53:03 2015] [debug] Rendering template "example/welcome.html.ep"
+[Thu Apr 16 19:53:03 2015] [debug] Rendering template "layouts/default.html.ep"
+[Thu Apr 16 19:53:03 2015] [debug] 200 OK (0.005275s, 189.573/s)
+[Thu Apr 16 19:53:15 2015] [debug] GET "/q/all"
+[Thu Apr 16 19:53:15 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 19:53:15 2015] [debug] 200 OK (0.001562s, 640.205/s)
+[Thu Apr 16 19:54:23 2015] [debug] GET "/perldoc"
+[Thu Apr 16 19:54:23 2015] [debug] Routing to a callback
+[Thu Apr 16 19:54:23 2015] [debug] Rendering inline template "0c193e3f1f7e2c16e641f25772ee7ee8"
+[Thu Apr 16 19:54:23 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 19:54:23 2015] [debug] 200 OK (0.106860s, 9.358/s)
+[Thu Apr 16 20:29:11 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:29:11 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:29:11 2015] [error] "../$Bin" is not exported by the FindBin module
+Can't continue after import errors at lib/LabBooker/Controller/Queries.pm line 4.
+BEGIN failed--compilation aborted at lib/LabBooker/Controller/Queries.pm line 4.
+Compilation failed in require at (eval 47) line 1.
+
+[Thu Apr 16 20:29:11 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 20:29:11 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 20:29:11 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:29:11 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:29:11 2015] [debug] 500 Internal Server Error (0.061663s, 16.217/s)
+[Thu Apr 16 20:29:39 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:29:39 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:29:39 2015] [error] "../$Bin" is not exported by the FindBin module
+Can't continue after import errors at lib/LabBooker/Controller/Queries.pm line 4.
+BEGIN failed--compilation aborted at lib/LabBooker/Controller/Queries.pm line 4.
+Compilation failed in require at (eval 47) line 1.
+
+[Thu Apr 16 20:29:39 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 20:29:39 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 20:29:39 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:29:39 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:29:39 2015] [debug] 500 Internal Server Error (0.046656s, 21.433/s)
+[Thu Apr 16 20:29:40 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:29:40 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:29:40 2015] [debug] Action not found in controller
+[Thu Apr 16 20:29:40 2015] [debug] Template "queries/all.html.ep" not found
+[Thu Apr 16 20:29:40 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Apr 16 20:29:40 2015] [debug] Template "not_found.html.ep" not found
+[Thu Apr 16 20:29:40 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:29:40 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:29:40 2015] [debug] 404 Not Found (0.007512s, 133.120/s)
+[Thu Apr 16 20:30:05 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:30:05 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:30:05 2015] [debug] Action not found in controller
+[Thu Apr 16 20:30:05 2015] [debug] Template "queries/all.html.ep" not found
+[Thu Apr 16 20:30:05 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Apr 16 20:30:05 2015] [debug] Template "not_found.html.ep" not found
+[Thu Apr 16 20:30:05 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:30:05 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:30:05 2015] [debug] 404 Not Found (0.010257s, 97.494/s)
+[Thu Apr 16 20:31:42 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:31:42 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:31:42 2015] [error] "../$Bin" is not exported by the FindBin module
+Can't continue after import errors at lib/LabBooker/Controller/Queries.pm line 4.
+BEGIN failed--compilation aborted at lib/LabBooker/Controller/Queries.pm line 4.
+Compilation failed in require at (eval 47) line 1.
+
+[Thu Apr 16 20:31:42 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 20:31:42 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 20:31:42 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:31:42 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:31:42 2015] [debug] 500 Internal Server Error (0.058102s, 17.211/s)
+[Thu Apr 16 20:31:45 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:31:45 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:31:45 2015] [debug] Action not found in controller
+[Thu Apr 16 20:31:45 2015] [debug] Template "queries/all.html.ep" not found
+[Thu Apr 16 20:31:45 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Apr 16 20:31:45 2015] [debug] Template "not_found.html.ep" not found
+[Thu Apr 16 20:31:45 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:31:45 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:31:45 2015] [debug] 404 Not Found (0.008356s, 119.674/s)
+[Thu Apr 16 20:31:48 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:31:48 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:31:48 2015] [debug] Action not found in controller
+[Thu Apr 16 20:31:48 2015] [debug] Template "queries/all.html.ep" not found
+[Thu Apr 16 20:31:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Apr 16 20:31:48 2015] [debug] Template "not_found.html.ep" not found
+[Thu Apr 16 20:31:48 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:31:48 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:31:48 2015] [debug] 404 Not Found (0.008629s, 115.888/s)
+[Thu Apr 16 20:31:51 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:31:51 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:31:51 2015] [debug] Action not found in controller
+[Thu Apr 16 20:31:51 2015] [debug] Template "queries/all.html.ep" not found
+[Thu Apr 16 20:31:51 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Apr 16 20:31:51 2015] [debug] Template "not_found.html.ep" not found
+[Thu Apr 16 20:31:51 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:31:51 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:31:51 2015] [debug] 404 Not Found (0.008572s, 116.659/s)
+[Thu Apr 16 20:32:25 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:32:25 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:32:25 2015] [error] syntax error at lib/LabBooker/Controller/Queries.pm line 7, near "i#use FindBin qw(../$Bin);
+
+# Returns all records from database
+sub all "
+Global symbol "$dbfile" requires explicit package name at lib/LabBooker/Controller/Queries.pm line 11.
+syntax error at lib/LabBooker/Controller/Queries.pm line 20, near "}"
+Compilation failed in require at (eval 47) line 1.
+
+[Thu Apr 16 20:32:25 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 20:32:25 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 20:32:25 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:32:25 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:32:25 2015] [debug] 500 Internal Server Error (0.043895s, 22.782/s)
+[Thu Apr 16 20:32:27 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:32:27 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:32:27 2015] [debug] Action not found in controller
+[Thu Apr 16 20:32:27 2015] [debug] Template "queries/all.html.ep" not found
+[Thu Apr 16 20:32:27 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Apr 16 20:32:27 2015] [debug] Template "not_found.html.ep" not found
+[Thu Apr 16 20:32:27 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:32:27 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:32:27 2015] [debug] 404 Not Found (0.009494s, 105.330/s)
+[Thu Apr 16 20:32:29 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:32:29 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:32:29 2015] [debug] Action not found in controller
+[Thu Apr 16 20:32:29 2015] [debug] Template "queries/all.html.ep" not found
+[Thu Apr 16 20:32:29 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Apr 16 20:32:29 2015] [debug] Template "not_found.html.ep" not found
+[Thu Apr 16 20:32:29 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:32:29 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:32:29 2015] [debug] 404 Not Found (0.008382s, 119.303/s)
+[Thu Apr 16 20:32:51 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:32:51 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:32:51 2015] [error] Global symbol "$dbfile" requires explicit package name at lib/LabBooker/Controller/Queries.pm line 11.
+Compilation failed in require at (eval 47) line 1.
+
+[Thu Apr 16 20:32:51 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 20:32:51 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 20:32:51 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:32:51 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:32:51 2015] [debug] 500 Internal Server Error (0.044436s, 22.504/s)
+[Thu Apr 16 20:32:52 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:32:52 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:32:52 2015] [debug] Action not found in controller
+[Thu Apr 16 20:32:52 2015] [debug] Template "queries/all.html.ep" not found
+[Thu Apr 16 20:32:52 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Apr 16 20:32:52 2015] [debug] Template "not_found.html.ep" not found
+[Thu Apr 16 20:32:52 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:32:52 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:32:52 2015] [debug] 404 Not Found (0.007362s, 135.833/s)
+[Thu Apr 16 20:32:53 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:32:53 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:32:53 2015] [debug] Action not found in controller
+[Thu Apr 16 20:32:53 2015] [debug] Template "queries/all.html.ep" not found
+[Thu Apr 16 20:32:53 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Apr 16 20:32:53 2015] [debug] Template "not_found.html.ep" not found
+[Thu Apr 16 20:32:53 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:32:53 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:32:53 2015] [debug] 404 Not Found (0.007386s, 135.391/s)
+[Thu Apr 16 20:32:54 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:32:54 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:32:54 2015] [debug] Action not found in controller
+[Thu Apr 16 20:32:54 2015] [debug] Template "queries/all.html.ep" not found
+[Thu Apr 16 20:32:54 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Apr 16 20:32:54 2015] [debug] Template "not_found.html.ep" not found
+[Thu Apr 16 20:32:54 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:32:54 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:32:54 2015] [debug] 404 Not Found (0.007196s, 138.966/s)
+[Thu Apr 16 20:33:33 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:33:33 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:33:33 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:33:33 2015] [debug] 200 OK (0.014170s, 70.572/s)
+[Thu Apr 16 20:34:07 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:34:07 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:34:07 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:34:07 2015] [debug] 200 OK (0.014266s, 70.097/s)
+[Thu Apr 16 20:34:09 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:34:09 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:34:09 2015] [debug] 200 OK (0.000509s, 1964.637/s)
+[Thu Apr 16 20:34:10 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:34:10 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:34:10 2015] [debug] 200 OK (0.000510s, 1960.784/s)
+[Thu Apr 16 20:34:11 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:34:11 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:34:11 2015] [debug] 200 OK (0.000504s, 1984.127/s)
+[Thu Apr 16 20:34:52 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:34:52 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:34:52 2015] [error] Global symbol "$BIN" requires explicit package name at lib/LabBooker/Controller/Queries.pm line 10.
+Compilation failed in require at (eval 47) line 1.
+
+[Thu Apr 16 20:34:52 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 20:34:52 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 20:34:52 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:34:52 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:34:52 2015] [debug] 500 Internal Server Error (0.046079s, 21.702/s)
+[Thu Apr 16 20:34:53 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:34:53 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:34:53 2015] [debug] Action not found in controller
+[Thu Apr 16 20:34:53 2015] [debug] Template "queries/all.html.ep" not found
+[Thu Apr 16 20:34:53 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Apr 16 20:34:53 2015] [debug] Template "not_found.html.ep" not found
+[Thu Apr 16 20:34:53 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:34:53 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:34:53 2015] [debug] 404 Not Found (0.007448s, 134.264/s)
+[Thu Apr 16 20:34:54 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:34:54 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:34:54 2015] [debug] Action not found in controller
+[Thu Apr 16 20:34:54 2015] [debug] Template "queries/all.html.ep" not found
+[Thu Apr 16 20:34:54 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Apr 16 20:34:54 2015] [debug] Template "not_found.html.ep" not found
+[Thu Apr 16 20:34:54 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:34:54 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:34:54 2015] [debug] 404 Not Found (0.007138s, 140.095/s)
+[Thu Apr 16 20:35:11 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:35:11 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:35:11 2015] [debug] Action not found in controller
+[Thu Apr 16 20:35:11 2015] [debug] Template "queries/all.html.ep" not found
+[Thu Apr 16 20:35:11 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Apr 16 20:35:11 2015] [debug] Template "not_found.html.ep" not found
+[Thu Apr 16 20:35:11 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:35:11 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:35:11 2015] [debug] 404 Not Found (0.007658s, 130.582/s)
+[Thu Apr 16 20:35:38 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:35:38 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:35:38 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:35:38 2015] [debug] 200 OK (0.015232s, 65.651/s)
+[Thu Apr 16 20:36:11 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:36:11 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:36:11 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:36:11 2015] [error] Can't call method "prepare" on an undefined value at lib/LabBooker/Controller/Queries.pm line 13.
+
+[Thu Apr 16 20:36:11 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 20:36:11 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 20:36:11 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:36:11 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:36:11 2015] [debug] 500 Internal Server Error (0.061592s, 16.236/s)
+[Thu Apr 16 20:39:13 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:39:13 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:39:13 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:39:13 2015] [debug] 200 OK (0.025763s, 38.815/s)
+[Thu Apr 16 20:40:41 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:40:41 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:40:41 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:40:41 2015] [debug] 200 OK (0.024596s, 40.657/s)
+[Thu Apr 16 20:40:43 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:40:43 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:40:43 2015] [debug] 200 OK (0.001108s, 902.527/s)
+[Thu Apr 16 20:41:10 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:41:10 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:41:10 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:41:10 2015] [error] Can't call method "prepare" on an undefined value at lib/LabBooker/Controller/Queries.pm line 12.
+
+[Thu Apr 16 20:41:10 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 20:41:10 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 20:41:10 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:41:10 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:41:10 2015] [debug] 500 Internal Server Error (0.055414s, 18.046/s)
+[Thu Apr 16 20:41:15 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:41:15 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:41:15 2015] [error] Can't call method "prepare" on an undefined value at lib/LabBooker/Controller/Queries.pm line 12.
+
+[Thu Apr 16 20:41:15 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 20:41:15 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 20:41:15 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:41:15 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:41:15 2015] [debug] 500 Internal Server Error (0.009910s, 100.908/s)
+[Thu Apr 16 20:43:45 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:43:45 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:43:45 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:43:45 2015] [error] Can't locate object method "home" via package "LabBooker::Controller::Queries" at /Library/Perl/5.18/Mojolicious.pm line 120.
+
+[Thu Apr 16 20:43:45 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 20:43:45 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 20:43:45 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:43:45 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:43:45 2015] [debug] 500 Internal Server Error (0.054214s, 18.445/s)
+[Thu Apr 16 20:43:47 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:43:47 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:43:47 2015] [error] Can't locate object method "home" via package "LabBooker::Controller::Queries" at /Library/Perl/5.18/Mojolicious.pm line 120.
+
+[Thu Apr 16 20:43:47 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 20:43:47 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 20:43:47 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:43:47 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:43:47 2015] [debug] 500 Internal Server Error (0.011229s, 89.055/s)
+[Thu Apr 16 20:44:19 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:44:19 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:44:19 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:44:19 2015] [debug] 200 OK (0.024773s, 40.367/s)
+[Thu Apr 16 20:45:05 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:45:05 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:45:05 2015] [error] syntax error at lib/LabBooker/Controller/Queries.pm line 9, near ""lib/LabBooker/Model/lbooker.sqlite";"
+Global symbol "$dbfile" requires explicit package name at lib/LabBooker/Controller/Queries.pm line 10.
+Compilation failed in require at (eval 47) line 1.
+
+[Thu Apr 16 20:45:05 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 20:45:05 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 20:45:05 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:45:05 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:45:05 2015] [debug] 500 Internal Server Error (0.049036s, 20.393/s)
+[Thu Apr 16 20:45:09 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:45:09 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:45:09 2015] [debug] Action not found in controller
+[Thu Apr 16 20:45:09 2015] [debug] Template "queries/all.html.ep" not found
+[Thu Apr 16 20:45:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Apr 16 20:45:09 2015] [debug] Template "not_found.html.ep" not found
+[Thu Apr 16 20:45:09 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:45:09 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:45:09 2015] [debug] 404 Not Found (0.009232s, 108.319/s)
+[Thu Apr 16 20:45:13 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:45:13 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:45:13 2015] [debug] Action not found in controller
+[Thu Apr 16 20:45:13 2015] [debug] Template "queries/all.html.ep" not found
+[Thu Apr 16 20:45:13 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Apr 16 20:45:13 2015] [debug] Template "not_found.html.ep" not found
+[Thu Apr 16 20:45:13 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:45:13 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:45:13 2015] [debug] 404 Not Found (0.008632s, 115.848/s)
+[Thu Apr 16 20:45:48 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:45:48 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:45:48 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:45:48 2015] [debug] 200 OK (0.038017s, 26.304/s)
+[Thu Apr 16 20:46:05 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:46:05 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:46:05 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:46:05 2015] [debug] 200 OK (0.024437s, 40.922/s)
+[Thu Apr 16 20:46:09 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:46:09 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:46:09 2015] [debug] 200 OK (0.001332s, 750.751/s)
+[Thu Apr 16 20:48:28 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:48:28 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:48:28 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:48:28 2015] [debug] 200 OK (0.021240s, 47.081/s)
+[Thu Apr 16 20:52:51 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:52:51 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:52:51 2015] [error] Global symbol "$result" requires explicit package name at lib/LabBooker/Controller/Queries.pm line 19.
+Compilation failed in require at (eval 47) line 1.
+
+[Thu Apr 16 20:52:51 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 20:52:51 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 20:52:51 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:52:51 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:52:51 2015] [debug] 500 Internal Server Error (0.048605s, 20.574/s)
+[Thu Apr 16 20:52:53 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:52:53 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:52:53 2015] [debug] Action not found in controller
+[Thu Apr 16 20:52:53 2015] [debug] Template "queries/all.html.ep" not found
+[Thu Apr 16 20:52:53 2015] [debug] Template "not_found.development.html.ep" not found
+[Thu Apr 16 20:52:53 2015] [debug] Template "not_found.html.ep" not found
+[Thu Apr 16 20:52:53 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:52:53 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:52:53 2015] [debug] 404 Not Found (0.010619s, 94.171/s)
+[Thu Apr 16 20:53:13 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:53:13 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:53:13 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:53:13 2015] [error] Can't locate object method "fetch_all" via package "DBI::st" at lib/LabBooker/Controller/Queries.pm line 15.
+
+[Thu Apr 16 20:53:13 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 20:53:13 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 20:53:13 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:53:14 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:53:14 2015] [debug] 500 Internal Server Error (0.064482s, 15.508/s)
+[Thu Apr 16 20:55:04 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:55:04 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:55:04 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:55:04 2015] [error] Can't locate object method "fetch_all" via package "DBI::st" at lib/LabBooker/Controller/Queries.pm line 15.
+
+[Thu Apr 16 20:55:04 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 20:55:04 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 20:55:04 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 20:55:04 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 20:55:04 2015] [debug] 500 Internal Server Error (0.063151s, 15.835/s)
+[Thu Apr 16 20:55:15 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:55:15 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:55:15 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:55:15 2015] [debug] 200 OK (0.020358s, 49.121/s)
+[Thu Apr 16 20:55:53 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 20:55:53 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:55:53 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:55:53 2015] [debug] 200 OK (0.021860s, 45.746/s)
+[Thu Apr 16 20:55:56 2015] [debug] GET "/q/all"
+[Thu Apr 16 20:55:56 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 20:55:56 2015] [debug] 200 OK (0.000957s, 1044.932/s)
+[Thu Apr 16 21:01:21 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 21:01:21 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:01:21 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:01:21 2015] [debug] 200 OK (0.026691s, 37.466/s)
+[Thu Apr 16 21:02:49 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 21:02:49 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:02:49 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:02:49 2015] [debug] 200 OK (0.020923s, 47.794/s)
+[Thu Apr 16 21:07:40 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 21:07:40 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:07:40 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:07:40 2015] [error] Can't use string ("Exploratory1") as an ARRAY ref while "strict refs" in use at lib/LabBooker/Controller/Queries.pm line 20.
+
+[Thu Apr 16 21:07:40 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 21:07:40 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 21:07:40 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 21:07:40 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 21:07:40 2015] [debug] 500 Internal Server Error (0.048820s, 20.483/s)
+[Thu Apr 16 21:08:23 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 21:08:23 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:08:23 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:08:23 2015] [error] Can't use string ("Exploratory1") as an ARRAY ref while "strict refs" in use at lib/LabBooker/Controller/Queries.pm line 20.
+
+[Thu Apr 16 21:08:23 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 21:08:23 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 21:08:23 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 21:08:23 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 21:08:23 2015] [debug] 500 Internal Server Error (0.055792s, 17.924/s)
+[Thu Apr 16 21:09:07 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 21:09:07 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:09:07 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:09:07 2015] [error] Can't use string ("Exploratory1") as an ARRAY ref while "strict refs" in use at lib/LabBooker/Controller/Queries.pm line 20.
+
+[Thu Apr 16 21:09:07 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 21:09:07 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 21:09:07 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 21:09:07 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 21:09:07 2015] [debug] 500 Internal Server Error (0.050741s, 19.708/s)
+[Thu Apr 16 21:11:10 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 21:11:10 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:11:10 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:11:10 2015] [error] Can't use string ("Exploratory1") as an ARRAY ref while "strict refs" in use at lib/LabBooker/Controller/Queries.pm line 20.
+
+[Thu Apr 16 21:11:10 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 21:11:10 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 21:11:10 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 21:11:10 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 21:11:10 2015] [debug] 500 Internal Server Error (0.053510s, 18.688/s)
+[Thu Apr 16 21:11:33 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 21:11:33 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:11:33 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:11:33 2015] [error] Can't use string ("Exploratory1") as a SCALAR ref while "strict refs" in use at lib/LabBooker/Controller/Queries.pm line 20.
+
+[Thu Apr 16 21:11:33 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 21:11:33 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 21:11:33 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 21:11:33 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 21:11:33 2015] [debug] 500 Internal Server Error (0.055909s, 17.886/s)
+[Thu Apr 16 21:12:35 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 21:12:35 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:12:35 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:12:35 2015] [error] Can't use string ("Exploratory1") as an ARRAY ref while "strict refs" in use at lib/LabBooker/Controller/Queries.pm line 20.
+
+[Thu Apr 16 21:12:35 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 21:12:35 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 21:12:35 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 21:12:35 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 21:12:35 2015] [debug] 500 Internal Server Error (0.055781s, 17.927/s)
+[Thu Apr 16 21:12:38 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:12:38 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:12:38 2015] [error] Can't use string ("Exploratory1") as an ARRAY ref while "strict refs" in use at lib/LabBooker/Controller/Queries.pm line 20.
+
+[Thu Apr 16 21:12:38 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 21:12:38 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 21:12:38 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 21:12:38 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 21:12:38 2015] [debug] 500 Internal Server Error (0.010522s, 95.039/s)
+[Thu Apr 16 21:14:02 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 21:14:02 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:14:02 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:14:02 2015] [error] Can't use string ("Exploratory1") as an ARRAY ref while "strict refs" in use at lib/LabBooker/Controller/Queries.pm line 20.
+
+[Thu Apr 16 21:14:02 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 21:14:02 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 21:14:02 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 21:14:02 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 21:14:02 2015] [debug] 500 Internal Server Error (0.054866s, 18.226/s)
+[Thu Apr 16 21:15:19 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 21:15:19 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:15:19 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:15:19 2015] [error] Can't use string ("Exploratory1") as an ARRAY ref while "strict refs" in use at lib/LabBooker/Controller/Queries.pm line 20.
+
+[Thu Apr 16 21:15:19 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 21:15:19 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 21:15:19 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 21:15:19 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 21:15:19 2015] [debug] 500 Internal Server Error (0.055408s, 18.048/s)
+[Thu Apr 16 21:15:33 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:15:33 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:15:33 2015] [error] Can't use string ("Exploratory1") as an ARRAY ref while "strict refs" in use at lib/LabBooker/Controller/Queries.pm line 20.
+
+[Thu Apr 16 21:15:33 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 21:15:33 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 21:15:33 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 21:15:33 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 21:15:33 2015] [debug] 500 Internal Server Error (0.009694s, 103.157/s)
+[Thu Apr 16 21:16:29 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 21:16:29 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:16:29 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:16:29 2015] [error] Can't use an undefined value as an ARRAY reference at lib/LabBooker/Controller/Queries.pm line 20.
+
+[Thu Apr 16 21:16:29 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 21:16:29 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 21:16:29 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 21:16:29 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 21:16:29 2015] [debug] 500 Internal Server Error (0.050877s, 19.655/s)
+[Thu Apr 16 21:17:42 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 21:17:42 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:17:42 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:17:42 2015] [debug] 200 OK (0.021877s, 45.710/s)
+[Thu Apr 16 21:17:45 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:17:45 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:17:45 2015] [debug] 200 OK (0.001442s, 693.481/s)
+[Thu Apr 16 21:19:22 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 21:19:22 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:19:22 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:19:22 2015] [debug] 200 OK (0.020972s, 47.683/s)
+[Thu Apr 16 21:21:27 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 21:21:27 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:21:27 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:21:27 2015] [debug] 200 OK (0.020872s, 47.911/s)
+[Thu Apr 16 21:22:47 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 21:22:47 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:22:47 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:22:47 2015] [debug] 200 OK (0.019691s, 50.785/s)
+[Thu Apr 16 21:24:44 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 21:24:44 2015] [debug] GET "/q/all"
+[Thu Apr 16 21:24:44 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 21:24:44 2015] [debug] 200 OK (0.024087s, 41.516/s)
+[Thu Apr 16 22:02:14 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 22:02:14 2015] [debug] GET "/q/all"
+[Thu Apr 16 22:02:14 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 22:02:14 2015] [error] DBD::sqlite initialisation failed: Can't locate object method "driver" via package "DBD::sqlite" at /System/Library/Perl/Extras/5.18/darwin-thread-multi-2level/DBI.pm line 821.
+
+Perhaps the capitalisation of DBD 'sqlite' isn't right. at lib/LabBooker.pm line 12.
+
+[Thu Apr 16 22:02:14 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 22:02:14 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 22:02:14 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 22:02:14 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 22:02:14 2015] [debug] 500 Internal Server Error (0.051857s, 19.284/s)
+[Thu Apr 16 22:02:36 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 22:02:36 2015] [debug] GET "/q/all"
+[Thu Apr 16 22:02:36 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 22:02:36 2015] [debug] 200 OK (0.025093s, 39.852/s)
+[Thu Apr 16 22:02:38 2015] [debug] GET "/q/all"
+[Thu Apr 16 22:02:38 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 22:02:38 2015] [debug] 200 OK (0.000829s, 1206.273/s)
+[Thu Apr 16 22:10:43 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 22:10:43 2015] [debug] GET "/q/all"
+[Thu Apr 16 22:10:43 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 22:10:43 2015] [debug] 200 OK (0.010828s, 92.353/s)
+[Thu Apr 16 22:10:54 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:10:54 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:10:54 2015] [error] Can't locate object method "render" via package "self" (perhaps you forgot to load "self"?) at lib/LabBooker/Controller/Queries.pm line 28.
+
+[Thu Apr 16 22:10:54 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 22:10:54 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 22:10:54 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 22:10:54 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 22:10:54 2015] [debug] 500 Internal Server Error (0.038520s, 25.961/s)
+[Thu Apr 16 22:11:10 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 22:11:10 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:11:10 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:11:10 2015] [debug] 200 OK (0.002170s, 460.829/s)
+[Thu Apr 16 22:17:41 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 22:17:41 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:17:41 2015] [error] Bareword "app" not allowed while "strict subs" in use at lib/LabBooker/Controller/Queries.pm line 18.
+Compilation failed in require at (eval 48) line 1.
+
+[Thu Apr 16 22:17:41 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 22:17:41 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 22:17:41 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 22:17:41 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 22:17:41 2015] [debug] 500 Internal Server Error (0.031315s, 31.934/s)
+[Thu Apr 16 22:18:05 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 22:18:05 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:18:05 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:18:05 2015] [error] Can't locate object method "dhb" via package "LabBooker" at lib/LabBooker/Controller/Queries.pm line 18.
+
+[Thu Apr 16 22:18:05 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 22:18:05 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 22:18:05 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 22:18:05 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 22:18:05 2015] [debug] 500 Internal Server Error (0.038783s, 25.784/s)
+[Thu Apr 16 22:18:10 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:18:10 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:18:10 2015] [error] Can't locate object method "dhb" via package "LabBooker" at lib/LabBooker/Controller/Queries.pm line 18.
+
+[Thu Apr 16 22:18:10 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 22:18:10 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 22:18:10 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 22:18:10 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 22:18:10 2015] [debug] 500 Internal Server Error (0.009328s, 107.204/s)
+[Thu Apr 16 22:18:28 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 22:18:28 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:18:28 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:18:29 2015] [error] DBI::st=HASH(0x7f8af57dcca0)->_prepare(...): attribute parameter 'eivin' is not a hash ref at /Library/Perl/5.18/darwin-thread-multi-2level/DBD/SQLite.pm line 200.
+
+[Thu Apr 16 22:18:29 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 22:18:29 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 22:18:29 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 22:18:29 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 22:18:29 2015] [debug] 500 Internal Server Error (0.064517s, 15.500/s)
+[Thu Apr 16 22:18:30 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:18:30 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:18:30 2015] [error] DBI::st=HASH(0x7f8af2959338)->_prepare(...): attribute parameter 'eivin' is not a hash ref at /Library/Perl/5.18/darwin-thread-multi-2level/DBD/SQLite.pm line 200.
+
+[Thu Apr 16 22:18:30 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 22:18:30 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 22:18:30 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 22:18:30 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 22:18:30 2015] [debug] 500 Internal Server Error (0.012854s, 77.797/s)
+[Thu Apr 16 22:19:54 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 22:19:54 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:19:54 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:19:54 2015] [debug] 200 OK (0.018557s, 53.888/s)
+[Thu Apr 16 22:19:56 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:19:56 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:19:56 2015] [debug] 200 OK (0.000738s, 1355.014/s)
+[Thu Apr 16 22:20:05 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:20:05 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:20:05 2015] [debug] 200 OK (0.000754s, 1326.260/s)
+[Thu Apr 16 22:22:14 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 22:22:14 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:22:14 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:22:14 2015] [debug] 200 OK (0.012163s, 82.217/s)
+[Thu Apr 16 22:22:17 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:22:17 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:22:17 2015] [debug] 200 OK (0.000738s, 1355.014/s)
+[Thu Apr 16 22:24:29 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 22:24:29 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:24:29 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:24:29 2015] [error] Can't call method "execute" on an undefined value at lib/LabBooker/Controller/Queries.pm line 19.
+
+[Thu Apr 16 22:24:29 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 22:24:29 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 22:24:29 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 22:24:29 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 22:24:29 2015] [debug] 500 Internal Server Error (0.040608s, 24.626/s)
+[Thu Apr 16 22:25:02 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 22:25:02 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:25:02 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:25:02 2015] [error] Can't call method "execute" on an undefined value at lib/LabBooker/Controller/Queries.pm line 19.
+
+[Thu Apr 16 22:25:02 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 22:25:02 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 22:25:02 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 22:25:02 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 22:25:02 2015] [debug] 500 Internal Server Error (0.036563s, 27.350/s)
+[Thu Apr 16 22:27:06 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 22:27:06 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:27:06 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:27:06 2015] [error] Can't call method "execute" on an undefined value at lib/LabBooker/Controller/Queries.pm line 19.
+
+[Thu Apr 16 22:27:06 2015] [debug] Template "exception.development.html.ep" not found
+[Thu Apr 16 22:27:06 2015] [debug] Template "exception.html.ep" not found
+[Thu Apr 16 22:27:06 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Thu Apr 16 22:27:06 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Thu Apr 16 22:27:06 2015] [debug] 500 Internal Server Error (0.041691s, 23.986/s)
+[Thu Apr 16 22:28:26 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 22:28:26 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:28:26 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:28:26 2015] [debug] 200 OK (0.011294s, 88.543/s)
+[Thu Apr 16 22:36:22 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 22:36:22 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:36:22 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:36:22 2015] [debug] 200 OK (0.024910s, 40.145/s)
+[Thu Apr 16 22:36:24 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:36:24 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:36:24 2015] [debug] 200 OK (0.000920s, 1086.957/s)
+[Thu Apr 16 22:36:26 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:36:26 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:36:26 2015] [debug] 200 OK (0.000874s, 1144.165/s)
+[Thu Apr 16 22:37:25 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 22:37:25 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:37:25 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:37:25 2015] [debug] 200 OK (0.011286s, 88.605/s)
+[Thu Apr 16 22:40:22 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 22:40:22 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:40:22 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:40:22 2015] [debug] 200 OK (0.009852s, 101.502/s)
+[Thu Apr 16 22:40:24 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:40:24 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:40:24 2015] [debug] 200 OK (0.000921s, 1085.776/s)
+[Thu Apr 16 22:40:27 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:40:27 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:40:27 2015] [debug] 200 OK (0.000759s, 1317.523/s)
+[Thu Apr 16 22:41:37 2015] [debug] Your secret passphrase needs to be changed
+[Thu Apr 16 22:41:37 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:41:37 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:41:37 2015] [debug] 200 OK (0.011643s, 85.889/s)
+[Thu Apr 16 22:41:40 2015] [debug] GET "/q/user/eivin"
+[Thu Apr 16 22:41:40 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "user"
+[Thu Apr 16 22:41:40 2015] [debug] 200 OK (0.000944s, 1059.322/s)
+[Thu Apr 16 22:41:50 2015] [debug] GET "/q/all"
+[Thu Apr 16 22:41:50 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 22:41:50 2015] [debug] 200 OK (0.001208s, 827.815/s)
+[Thu Apr 16 22:44:23 2015] [debug] GET "/q/all"
+[Thu Apr 16 22:44:23 2015] [debug] Routing to controller "LabBooker::Controller::Queries" and action "all"
+[Thu Apr 16 22:44:23 2015] [debug] 200 OK (0.000841s, 1189.061/s)
